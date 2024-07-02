@@ -1,4 +1,4 @@
-package com.shyrine.todolist.todolist.util;
+package com.shyrine.todolist.util;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

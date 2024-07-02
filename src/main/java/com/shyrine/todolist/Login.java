@@ -1,7 +1,7 @@
-package com.shyrine.todolist.todolist;
+package com.shyrine.todolist;
 
-import com.shyrine.todolist.todolist.util.SQLiteConnectionUtil;
-import com.shyrine.todolist.todolist.util.SceneUtils;
+import com.shyrine.todolist.util.SQLiteConnectionUtil;
+import com.shyrine.todolist.util.SceneUtils;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -11,7 +11,7 @@ public class Login extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         SQLiteConnectionUtil.getConnection();
-        Scene scene = SceneUtils.createScene("com/shyrine/todolist/todolist/login.fxml", 960, 540);
+        Scene scene = SceneUtils.createScene("com/shyrine/todolist/login.fxml", 960, 540);
 
         stage.setTitle("ToDoList by Shyrine");
         stage.getIcons().add(SceneUtils.loadApplicationIcon());

@@ -1,4 +1,4 @@
-package com.shyrine.todolist.todolist.util;
+package com.shyrine.todolist.util;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -10,7 +10,7 @@ import java.util.Objects;
 
 public class SceneUtils {
     public static Image loadApplicationIcon() {
-        return new Image(Objects.requireNonNull(SceneUtils.class.getResourceAsStream("/com/shyrine/todolist/todolist/images/todo_list_logo.png")));
+        return new Image(Objects.requireNonNull(SceneUtils.class.getResourceAsStream("/com/shyrine/todolist/images/todo_list_logo.png")));
     }
 
     public static Scene createScene(String fxmlPath, double width, double height) throws IOException {
