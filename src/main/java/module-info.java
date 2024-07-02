@@ -1,4 +1,4 @@
-module com.shyrine.todolist.todolist {
+module com.shyrine.todolist {
     requires javafx.controls;
     requires javafx.fxml;
 
