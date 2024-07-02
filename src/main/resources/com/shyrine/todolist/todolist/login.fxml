@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.shyrine.todolist.todolist.LoginController">
+   <!-- Right pane for login -->
+   <AnchorPane layoutX="479.0" prefHeight="540.0" prefWidth="479.0">
+      <Label layoutX="171.0" layoutY="110.0" text="Welcome" textFill="#3371ff">
+         <font>
+            <Font name="Leelawadee UI Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="157.0" text="Login to your account to continue">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameField" focusTraversable="false" layoutX="61.0" layoutY="233.0" prefHeight="36.0" prefWidth="356.0" promptText="Username" />
+      <PasswordField fx:id="passwordField" focusTraversable="false" layoutX="62.0" layoutY="296.0" prefHeight="36.0" prefWidth="356.0" promptText="Password" />
+      <Button fx:id="loginButton" layoutX="178.0" layoutY="366.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="124.0" styleClass="buttonBackgroundColor" text="LOG IN" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="130.0" layoutY="408.0" text="Don't have an account?">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="285.0" layoutY="405.0" text="Register" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Hyperlink>
+   </AnchorPane>
+
+   <!-- Left pane for logo and branding -->
+   <AnchorPane prefHeight="540.0" prefWidth="479.0" styleClass="loginBackgroundColor">
+      <ImageView fitHeight="247.0" fitWidth="247.0" layoutX="116.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <effect>
+            <ColorAdjust brightness="0.84" contrast="-0.92" hue="-0.02" saturation="-1.0" />
+         </effect>
+         <Image url="@images/todo_list_logo.png" />
+      </ImageView>
+      <Label layoutX="123.0" layoutY="336.0" text="ToDoList by Shyrine" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+   </AnchorPane>
+
+   <!-- Vertical separator -->
+   <Separator layoutX="477.0" layoutY="-6.0" orientation="VERTICAL" prefHeight="540.0" prefWidth="0.0" />
+</AnchorPane>
