@@ -1,0 +1,8 @@
+.loginBackgroundColor {
+    -fx-background-color: linear-gradient(#0055a9, #00a9a9);
+}
+
+.buttonBackgroundColor {
+    -fx-background-color: linear-gradient(#00a9a9, #0055a9);
+
+}
