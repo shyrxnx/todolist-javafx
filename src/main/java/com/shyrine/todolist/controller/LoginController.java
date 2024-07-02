@@ -1,7 +1,7 @@
-package com.shyrine.todolist.todolist;
+package com.shyrine.todolist.controller;
 
-import com.shyrine.todolist.todolist.util.UserDetailsService;
-import com.shyrine.todolist.todolist.util.UserDetailsService.LoginResult;
+import com.shyrine.todolist.util.UserDetailsService;
+import com.shyrine.todolist.util.UserDetailsService.LoginResult;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
@@ -49,7 +49,7 @@ public class LoginController {
         alert.setContentText(message);
 
         Stage stage = (Stage) alert.getDialogPane().getScene().getWindow();
-        stage.getIcons().add(new Image(Objects.requireNonNull(getClass().getResource("/com/shyrine/todolist/todolist/images/todo_list_logo.png")).toString()));
+        stage.getIcons().add(new Image(Objects.requireNonNull(getClass().getResource("/com/shyrine/todolist/images/todo_list_logo.png")).toString()));
 
         alert.showAndWait();
     }
