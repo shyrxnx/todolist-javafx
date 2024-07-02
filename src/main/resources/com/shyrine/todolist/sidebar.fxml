@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import org.kordamp.ikonli.javafx.*?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <left>
+            <AnchorPane prefHeight="540.0" prefWidth="54.0" styleClass="sideBackgroundColor" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="CENTER" spacing="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <FontIcon iconColor="WHITE" iconLiteral="fth-plus-square" iconSize="28" />
+                        <VBox alignment="CENTER" spacing="20.0">
+                           <children>
+                              <FontIcon iconColor="WHITE" iconLiteral="fth-list" iconSize="28" />
+                              <FontIcon iconColor="WHITE" iconLiteral="fth-grid" iconSize="28" />
+                           </children>
+                           <VBox.margin>
+                              <Insets bottom="160.0" top="160.0" />
+                           </VBox.margin>
+                        </VBox>
+                        <FontIcon iconColor="WHITE" iconLiteral="fth-settings" iconSize="28" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

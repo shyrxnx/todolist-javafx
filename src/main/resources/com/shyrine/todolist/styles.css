@@ -4,5 +4,8 @@
 
 .buttonBackgroundColor {
     -fx-background-color: linear-gradient(#00a9a9, #0055a9);
+}
 
+.sideBackgroundColor {
+    -fx-background-color: #0062c0;
 }
