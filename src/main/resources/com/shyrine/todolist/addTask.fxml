@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.shyrine.todolist.AddTask"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.shyrine.todolist.AddTask">
+   <children>
+      <TableView layoutY="118.4" prefHeight="282.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn prefWidth="193.5999755859375" text="Name" />
+          <TableColumn minWidth="0.0" prefWidth="88.00006103515625" text="Status" />
+            <TableColumn minWidth="0.0" prefWidth="114.4000244140625" text="Due Date" />
+            <TableColumn prefWidth="103.20001220703125" text="Priority" />
+            <TableColumn prefWidth="106.4000244140625" resizable="false" text="Category" />
+        </columns>
+      </TableView>
+   </children>
 </AnchorPane>
